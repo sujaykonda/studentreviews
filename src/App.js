@@ -1,6 +1,6 @@
 import logo from './logo.png';
 import './App.css';
-import NameForm from './Form';
+import EssayForm from './Form';
 
 function App(){
   return (
@@ -8,7 +8,7 @@ function App(){
 
       <h1> <img src={logo} alt="dogeclassroom" width="90" height="67.5"></img> DogeClassrome</h1>
       <header className="App-header">
-       <div><NameForm /></div>
+        <EssayForm />
       </header>
     </div>
   );

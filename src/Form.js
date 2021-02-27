@@ -1,33 +1,37 @@
 import React from 'react';
 
-class NameForm extends React.Component {
-    constructor(props) {
-      super(props);
-      this.state = {value: ''};
-  
-      this.handleChange = this.handleChange.bind(this);
-      this.handleSubmit = this.handleSubmit.bind(this);
-    }
-  
-    handleChange(event) {
-      this.setState({value: event.target.value});
-    }
-  
-    handleSubmit(event) {
-      alert('A review was submitted: ' + this.state.value);
-      event.preventDefault();
-    }
-  
-    render() {
-      return (
-        <form onSubmit={this.handleSubmit}>
-          <label>
-            What's Your Review:
-            <input type="text" value={this.state.value} onChange={this.handleChange} />
-          </label>
-          <input type="submit" value="Submit" />
-        </form>
-      );
-    }
+class EssayForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+    	value: 'Please Write Some Feedback for the Teacher'
+    };
+
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
-export default NameForm;
+
+  handleChange(event) {
+    this.setState({value: event.target.value});
+  }
+
+  handleSubmit(event) {
+    alert('An essay was submitted: ' + this.state.value);
+    event.preventDefault();
+  }
+
+  render() {
+    return (
+      <form onSubmit={this.handleSubmit}>
+        <label>
+			Feedback For Teacher:
+			<br />
+          	<textarea value={this.state.value} onChange={this.handleChange} rows="10" cols="200" style={{width:"70%"}} />
+        </label>
+		<br />
+        <input type="submit" value="Submit" />
+      </form>
+    );
+  }
+}
+export default EssayForm;
