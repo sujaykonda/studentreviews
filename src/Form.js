@@ -16,8 +16,9 @@ class EssayForm extends React.Component {
   }
 
   handleSubmit(event) {
-    alert('An essay was submitted: ' + this.state.value);
-	Model.run(this.state.value);
+	Model.run(this.state.value).then((data) => {
+		alert(data);
+	})
     event.preventDefault();
   }
 

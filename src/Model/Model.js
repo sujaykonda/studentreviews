@@ -18,8 +18,10 @@ class Model{
             sequence.push(0)
         }
         console.log(sequence)
-        const model = await tf.loadGraphModel("model/model.json")
-        console.log(model.predict(tf.tensor1d(sequence)))
+        const model = await tf.loadLayersModel("https://raw.githubusercontent.com/sujaykonda/studentreviews/main/src/Model/model/model.json")
+        var out = model.predict(tf.tensor2d([sequence]))
+        
+        return((await out.slice([0, 0], 1).as1D().data())[0] * 5 + 3)
     }
 }
 
