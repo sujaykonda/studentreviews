@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Model from './Model/Model'
 class EssayForm extends React.Component {
   constructor(props) {
     super(props);
@@ -17,6 +17,7 @@ class EssayForm extends React.Component {
 
   handleSubmit(event) {
     alert('An essay was submitted: ' + this.state.value);
+	Model.run(this.state.value);
     event.preventDefault();
   }
 
