@@ -1,22 +1,14 @@
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
+import NameForm from './Form';
 
-function App() {
+function App(){
   return (
     <div className="App">
+
+      <h1> <img src={logo} alt="dogeclassroom" width="90" height="67.5"></img> DogeClassrome</h1>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       <div><NameForm /></div>
       </header>
     </div>
   );
