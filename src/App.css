@@ -1,7 +1,19 @@
 .App {
   text-align: center;
+  text-align: middle;
 }
-
+.topBar{
+  font-family: fantasy;
+  color:#282c34;
+}
+.topBarText{
+  color:#282c34;
+  height: 60px;
+  padding-top: 20px;
+}
+.image{
+  float: left;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
