@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/studentreviews/static/css/main.7d180cbf.chunk.css",
+    "main.js": "/studentreviews/static/js/main.150db3df.chunk.js",
+    "main.js.map": "/studentreviews/static/js/main.150db3df.chunk.js.map",
+    "runtime-main.js": "/studentreviews/static/js/runtime-main.5bb764c4.js",
+    "runtime-main.js.map": "/studentreviews/static/js/runtime-main.5bb764c4.js.map",
+    "static/js/2.975e8af8.chunk.js": "/studentreviews/static/js/2.975e8af8.chunk.js",
+    "static/js/2.975e8af8.chunk.js.map": "/studentreviews/static/js/2.975e8af8.chunk.js.map",
+    "static/js/3.b08a22e7.chunk.js": "/studentreviews/static/js/3.b08a22e7.chunk.js",
+    "static/js/3.b08a22e7.chunk.js.map": "/studentreviews/static/js/3.b08a22e7.chunk.js.map",
+    "index.html": "/studentreviews/index.html",
+    "static/css/main.7d180cbf.chunk.css.map": "/studentreviews/static/css/main.7d180cbf.chunk.css.map",
+    "static/js/2.975e8af8.chunk.js.LICENSE.txt": "/studentreviews/static/js/2.975e8af8.chunk.js.LICENSE.txt",
+    "static/media/logo.005d93d9.png": "/studentreviews/static/media/logo.005d93d9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5bb764c4.js",
+    "static/js/2.975e8af8.chunk.js",
+    "static/css/main.7d180cbf.chunk.css",
+    "static/js/main.150db3df.chunk.js"
+  ]
+}
