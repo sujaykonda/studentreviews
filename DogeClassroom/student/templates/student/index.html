@@ -1,5 +1,17 @@
-<form action="/student/feedback/" method="post">
-    {% csrf_token %}
-    {{ form }}
-    <input type="submit" value="Submit">
-</form>
+{% load static %}
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'student/index.css' %}">
+</head>
+
+ <div className="App">
+      <div className="topBar">
+          <img className="image" src="{% static 'student/dogeclasslogo.png' %}" alt="dogeclassroom" width="90" height="67.5"/><img className="topBarText"src="{% static 'student/dogeclasstext.png' %}" alt="dogeclassroom" width="400" height="50"></img>
+    </div>
+      <div className="App-header">
+          <form action="/student/feedback/" method="post">
+              {% csrf_token %}
+              {{ form }}
+              <input type="submit" value="Submit">
+          </form>
+      </div>
+ </div>
