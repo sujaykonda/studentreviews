@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cbd2206-79b7-4204-843b-6a96a25b0e5d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,13 +38,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sujay\PycharmProjects\DogeClassroom" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\arjun\Documents\dogeclassrome\studentreviews\DogeClassroom\student\static\student" />
+      <recent name="C:\Users\arjun\Documents\dogeclassrome\studentreviews\DogeClassroom\student\templates\student" />
+      <recent name="C:\Users\arjun\Documents\dogeclassrome\studentreviews" />
+      <recent name="C:\Users\arjun\Documents\dogeclassrome\studentreviews\images" />
       <recent name="C:\Users\sujay\PycharmProjects\DogeClassroom\DogeClassroom\review\templates\polls" />
     </key>
   </component>
@@ -110,5 +113,16 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
